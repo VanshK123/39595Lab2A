@@ -1,18 +1,22 @@
-#include <optional>
-#include <stddef.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 #include "hash_map.h"
 
 hash_map::hash_map(size_t capacity){
-
+    size = 0;
+    capacity = 0;
+    head = NULL;
 }
 
 hash_map::hash_map(const hash_map &other){
+    size = 0;
+    capacity = 0;
+    head = NULL;
 
 }
 
 hash_map::hash_map &operator=(const hash_map &other){
-
+    
 }
 
 void hash_map::insert(int key, float value){
@@ -44,5 +48,5 @@ void hash_map::get_bucket_sizes(size_t * buckets){
 }
 
 hash_map::~hash_map(){
-    
+
 }
