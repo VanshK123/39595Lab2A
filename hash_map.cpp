@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #include "hash_map.h"
+#include <cmath>
 
 hash_map::hash_map(size_t capacity){
     size = 0;
@@ -49,4 +50,11 @@ void hash_map::get_bucket_sizes(size_t * buckets){
 
 hash_map::~hash_map(){
 
+}
+
+
+
+int hashing_function(float value, int capacity)
+{
+    return (abs(value)) % capacity;
 }
