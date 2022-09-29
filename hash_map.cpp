@@ -78,7 +78,7 @@ size_t hash_map::get_size() const
     return _size;
 }
 
-<<<<<<< HEAD
+
 size_t hash_map::get_capacity() const
 {
     return _capacity;
@@ -96,23 +96,7 @@ void hash_map::get_all_keys(int *keys)
         }
         _head[i].reset_iter();
     }
-=======
-size_t hash_map::get_size() const{
-    return _size;
-}
 
- size_t hash_map::get_capacity() const{
-    return _capacity;
- }
-
- void hash_map::get_all_keys(int* keys){
-
- }
-
-void hash_map::get_bucket_sizes(size_t * buckets){
-
->>>>>>> ea7786099e6a7e4ada2724be1ca8b117e120cff2
-}
 
 void hash_map::get_bucket_sizes(size_t *buckets)
 {

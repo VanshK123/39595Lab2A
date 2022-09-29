@@ -17,13 +17,9 @@ hash_list::hash_list()
 // Copy Constructor
 hash_list::hash_list(const hash_list &other)
 {
-     //head = other.head;
      size = 0;
      head = NULL;
      iter_ptr = NULL;
-     //size = other.size;
-     //iter_ptr = other.iter_ptr;
-
      //recreate new linked_list
      node* cnode = other.head;
     
