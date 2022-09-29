@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
         std::cout << "Invalid size" << std::endl;
         exit(1);
     }
-
+/*
     map.insert(3, 4);
     map.insert(4, 5);
 
@@ -40,4 +40,5 @@ int main(int argc, char *argv[])
     }
 
     std::cout << "Passed basic tests!" << std::endl;
+    */
 }
