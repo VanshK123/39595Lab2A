@@ -5,7 +5,7 @@ using namespace std;
 
 hash_map::hash_map(size_t capacity){
     size = 0;
-    capacity = 0;
+    _capacity = capacity;
     head = NULL;
 }
 
@@ -33,7 +33,7 @@ bool hash_map::remove(int key){
 }
 
 size_t hash_map::get_size() const{
-
+    return _capacity;
 }
 
  size_t hash_map::get_capacity() const{
@@ -53,7 +53,7 @@ hash_map::~hash_map(){
 }
 
 
-
+//this is the hashing function
 int hashing_function(float value, int capacity)
 {
     return (abs(value)) % capacity;
