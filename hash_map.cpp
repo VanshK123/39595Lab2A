@@ -33,11 +33,11 @@ bool hash_map::remove(int key){
 }
 
 size_t hash_map::get_size() const{
-    return _capacity;
+    return _size;
 }
 
  size_t hash_map::get_capacity() const{
-
+    return _capacity;
  }
 
  void hash_map::get_all_keys(int* keys){
