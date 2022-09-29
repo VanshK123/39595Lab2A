@@ -12,7 +12,7 @@ hash_map::hash_map(const hash_map &other){
     size = 0;
     capacity = 0;
     head = NULL;
-
+    
 }
 
 hash_map::hash_map &operator=(const hash_map &other){
